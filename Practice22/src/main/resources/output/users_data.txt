@@ -1,0 +1,4 @@
+id	first name	last name	middle name	birth date
+1	Oleg	Burtaev	Alekseevich	03/09/2001
+2	Alex	Dobrov	Alekseevich	03/09/1999
+4	Hoho	Leskov	Holand	03/09/1980

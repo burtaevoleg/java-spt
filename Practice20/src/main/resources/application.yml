@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/practice17_db"
+    username: postgres
+    password: 4345785

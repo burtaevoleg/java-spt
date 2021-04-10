@@ -1,0 +1,6 @@
+id	user_id	text	creation date
+12	1	Hello	0/0/1
+13	2	Hello	0/0/1
+14	2	Hello qw	0/0/1
+15	2	Hello qw	0/0/34
+17	2	Hi	0/

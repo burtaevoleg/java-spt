@@ -1,0 +1,102 @@
+1418 [main] INFO  c.e.p.Practice24Application – Starting Practice24Application using Java 1.8.0_251 on LAPTOP-FID3PILK with PID 8924 (C:\Users\user\Desktop\University\4 term\Java\Practices\Practice24\target\classes started by user in C:\Users\user\Desktop\University\4 term\Java\Practices\Practice24)
+1431 [main] INFO  c.e.p.Practice24Application – No active profile set, falling back to default profiles: default
+2762 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2903 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 125 ms. Found 4 JPA repository interfaces.
+4478 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+4490 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+4490 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+4491 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.43]
+4929 [main] INFO  o.apache.jasper.servlet.TldScanner – At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+4936 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+4936 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 3370 ms
+5209 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+5376 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.4.28.Final
+5652 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+6088 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+6501 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+6574 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+9758 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+9780 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+9961 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11478 [main] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6cf047cf, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f106af8, org.springframework.security.web.header.HeaderWriterFilter@6ce2e079, org.springframework.security.web.authentication.logout.LogoutFilter@1640f20f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@a357c3e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52d9d817, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@68b3248a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c92a549, org.springframework.security.web.session.SessionManagementFilter@260d48f5, org.springframework.security.web.access.ExceptionTranslationFilter@34beadce, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2a4e939a]
+11702 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor – Initializing ExecutorService 'applicationTaskExecutor'
+12059 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler – Initializing ExecutorService 'taskScheduler'
+12117 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+12137 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+12138 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler – Shutting down ExecutorService 'taskScheduler'
+12139 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor – Shutting down ExecutorService 'applicationTaskExecutor'
+12142 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+12145 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+12153 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+12156 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Pausing ProtocolHandler ["http-nio-8080"]
+12157 [main] INFO  o.a.catalina.core.StandardService – Stopping service [Tomcat]
+12165 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Stopping ProtocolHandler ["http-nio-8080"]
+12165 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Destroying ProtocolHandler ["http-nio-8080"]
+12181 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener – 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+12207 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter – 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2246 [main] INFO  c.e.p.Practice24Application – Starting Practice24Application using Java 1.8.0_251 on LAPTOP-FID3PILK with PID 11668 (C:\Users\user\Desktop\University\4 term\Java\Practices\Practice24\target\classes started by user in C:\Users\user\Desktop\University\4 term\Java\Practices\Practice24)
+2258 [main] INFO  c.e.p.Practice24Application – No active profile set, falling back to default profiles: default
+4321 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4642 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 286 ms. Found 4 JPA repository interfaces.
+7027 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+7049 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+7050 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+7051 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.43]
+7876 [main] INFO  o.apache.jasper.servlet.TldScanner – At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+7887 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+7888 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 5469 ms
+8368 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+8506 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.4.28.Final
+9033 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+9342 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+9694 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+9779 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+13086 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13112 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+13276 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15082 [main] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ef0e576, org.springframework.security.web.context.SecurityContextPersistenceFilter@697a92af, org.springframework.security.web.header.HeaderWriterFilter@2e3cd732, org.springframework.security.web.authentication.logout.LogoutFilter@7bbdb220, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@563172d3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16b76858, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e51ec2e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@da34eb0, org.springframework.security.web.session.SessionManagementFilter@2ab8589a, org.springframework.security.web.access.ExceptionTranslationFilter@7956f93a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@26d028f7]
+15489 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor – Initializing ExecutorService 'applicationTaskExecutor'
+15976 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler – Initializing ExecutorService 'taskScheduler'
+16075 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+16107 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+16108 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler – Shutting down ExecutorService 'taskScheduler'
+16110 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor – Shutting down ExecutorService 'applicationTaskExecutor'
+16113 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+16120 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+16132 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+16138 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Pausing ProtocolHandler ["http-nio-8080"]
+16138 [main] INFO  o.a.catalina.core.StandardService – Stopping service [Tomcat]
+16155 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Stopping ProtocolHandler ["http-nio-8080"]
+16156 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Destroying ProtocolHandler ["http-nio-8080"]
+16174 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener – 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16222 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter – 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+

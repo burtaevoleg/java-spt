@@ -1,13 +1,11 @@
 package com.example.practice15.services;
 
 import com.example.practice15.tables.Post;
-import com.example.practice15.tables.User;
 import lombok.RequiredArgsConstructor;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.springframework.stereotype.Component;
-
 import javax.annotation.PostConstruct;
 import java.util.List;
 

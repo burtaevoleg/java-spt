@@ -12,14 +12,10 @@ import org.mockito.Captor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit4.SpringRunner;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-
-import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.*;
-
 import static org.mockito.Mockito.when;
 
 @SpringBootTest
@@ -31,9 +27,6 @@ public class PostServiceTest {
     @Captor
     private ArgumentCaptor<Post> captor;
     private PostService postService;
-
-    @Autowired
-    private EmailService emailService;
 
     @Autowired
     public void setPostOfficeService(PostService postService) {

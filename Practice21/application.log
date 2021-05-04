@@ -1,56 +1,23 @@
-1146 [main] INFO  c.e.p.Practice21Application – Starting Practice21Application using Java 1.8.0_251 on LAPTOP-FID3PILK with PID 14120 (C:\Users\user\Desktop\University\4 term\Java\Practices\Practice21\target\classes started by user in C:\Users\user\Desktop\University\4 term\Java\Practices\Practice21)
-1159 [main] INFO  c.e.p.Practice21Application – No active profile set, falling back to default profiles: default
-2272 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2407 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 111 ms. Found 2 JPA repository interfaces.
-4850 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
-4861 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
-4862 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
-4862 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.43]
-5136 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
-5137 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 3900 ms
-5438 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
-5609 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
-5666 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
-5786 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.4.28.Final
-5967 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-6148 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-6974 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-6988 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
-7598 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-7764 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor – Initializing ExecutorService 'applicationTaskExecutor'
-8077 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
-8113 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
-8131 [main] INFO  c.e.p.Practice21Application – Started Practice21Application in 7.672 seconds (JVM running for 9.307)
-20130 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
-20130 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
-20131 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
-32709 [http-nio-8080-exec-2] INFO  com.example.practice21.Aspect – Method: sendMail from class com.example.practice21.services.EmailService, Time: 12520 ms, Parameters: [Add new user, Add new user, first name: Hoho, last name: Leskov]
-32774 [http-nio-8080-exec-2] INFO  com.example.practice21.Aspect – Method: addUser from class com.example.practice21.services.UserService, Time: 12594 ms, Parameters: [com.example.practice21.tables.User@5600b935]
-1431 [main] INFO  c.e.p.Practice21Application – Starting Practice21Application using Java 1.8.0_251 on LAPTOP-FID3PILK with PID 7216 (C:\Users\user\Desktop\University\4 term\Java\Practices\Practice21\target\classes started by user in C:\Users\user\Desktop\University\4 term\Java\Practices\Practice21)
-1442 [main] INFO  c.e.p.Practice21Application – No active profile set, falling back to default profiles: default
-3138 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-3255 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 97 ms. Found 2 JPA repository interfaces.
-4628 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
-4643 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
-4644 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
-4644 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.43]
-4905 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
-4905 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 3305 ms
-5137 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
-5365 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
-5429 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
-5568 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.4.28.Final
-5803 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-6011 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-6905 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-6922 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
-7437 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-7620 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor – Initializing ExecutorService 'applicationTaskExecutor'
-7901 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
-7924 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
-7937 [main] INFO  c.e.p.Practice21Application – Started Practice21Application in 7.414 seconds (JVM running for 9.424)
-413557 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
-413558 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
-413559 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
-415816 [http-nio-8080-exec-1] INFO  com.example.practice21.Aspect – Method: sendMail from class com.example.practice21.services.EmailService, Time: 2151 ms, Parameters: [Add new user, Add new user, first name: Hoho, last name: Leskov]
-415919 [http-nio-8080-exec-1] INFO  com.example.practice21.Aspect – Method: addUser from class com.example.practice21.services.UserService, Time: 2267 ms, Parameters: [com.example.practice21.tables.User@30f1a13b]
+853  [main] INFO  c.e.p.Practice21Application – Starting Practice21Application using Java 1.8.0_251 on LAPTOP-FID3PILK with PID 10212 (C:\Users\user\Desktop\University\4 term\Java\Practices\Practice21\target\classes started by user in C:\Users\user\Desktop\University\4 term\Java\Practices\Practice21)
+860  [main] INFO  c.e.p.Practice21Application – No active profile set, falling back to default profiles: default
+1420 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1480 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2220 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+2231 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+2231 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+2231 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.43]
+2333 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+2333 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1420 ms
+2538 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+2670 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+2730 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+2869 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.4.28.Final
+3050 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3210 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3839 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3850 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4250 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4360 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor – Initializing ExecutorService 'applicationTaskExecutor'
+4590 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+4609 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+4620 [main] INFO  c.e.p.Practice21Application – Started Practice21Application in 4.303 seconds (JVM running for 5.276)

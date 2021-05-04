@@ -3,7 +3,6 @@ package com.example.practice23.services;
 import com.example.practice23.repositories.UserAuthRepository;
 import com.example.practice23.tables.Role;
 import com.example.practice23.tables.User;
-import com.example.practice23.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

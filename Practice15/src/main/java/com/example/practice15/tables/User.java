@@ -2,7 +2,6 @@ package com.example.practice15.tables;
 
 import lombok.Getter;
 import lombok.Setter;
-
 import javax.persistence.*;
 import javax.persistence.Entity;
 

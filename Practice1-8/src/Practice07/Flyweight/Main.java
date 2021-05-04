@@ -1,7 +1,6 @@
 package Practice07.Flyweight;
 
 import Practice07.Flyweight.Shapes.Shape;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;

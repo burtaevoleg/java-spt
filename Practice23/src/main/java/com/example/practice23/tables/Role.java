@@ -32,7 +32,6 @@ public class Role implements GrantedAuthority {
     }
 
     public Role() {
-
     }
 
     @Override

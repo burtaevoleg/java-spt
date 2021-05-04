@@ -17,11 +17,11 @@ public class Main {
 
     public static void testSet(SetLock<Integer> set) throws InterruptedException {
         Thread thread1 = new Thread(() -> {
-            for (int i = 0; i < 100; i++) set.add(i);
+            for (int i = 0; i < 10; i++) set.add(i);
         });
 
         Thread thread2 = new Thread(() -> {
-            for (int i = 101; i < 200; i++) set.add(i);
+            for (int i = 11; i < 20; i++) set.add(i);
         });
 
         thread1.start();
@@ -33,11 +33,11 @@ public class Main {
 
     public static void testMap(MapSemaphore<Integer, Integer> map) throws InterruptedException {
         Thread thread1 = new Thread(() -> {
-            for (int i = 0; i < 100; i++) map.put(i, i);
+            for (int i = 0; i < 10; i++) map.put(i, i);
         });
 
         Thread thread2 = new Thread(() -> {
-            for (int i = 101; i < 200; i++) map.put(i, i);
+            for (int i = 11; i < 20; i++) map.put(i, i);
         });
 
         thread1.start();

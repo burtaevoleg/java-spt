@@ -1,8 +1,6 @@
 package com.example.practice12;
 
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
-
 import java.io.*;
 
 @Component

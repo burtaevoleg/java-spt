@@ -1,4 +1,5 @@
 package com.example.practice24.services;
+
 import com.example.practice24.repositories.UserAuthRepository;
 import com.example.practice24.tables.User;
 import org.junit.Before;
@@ -12,7 +13,6 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.test.context.junit4.SpringRunner;
-
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertEquals;
 import static org.mockito.ArgumentMatchers.any;

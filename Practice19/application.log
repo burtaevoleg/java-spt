@@ -1,77 +1,23 @@
-1537 [main] INFO  c.e.p.Practice19Application – Starting Practice19Application using Java 1.8.0_251 on LAPTOP-FID3PILK with PID 14072 (C:\Users\user\Desktop\University\4 term\Java\Practices\Practice19\target\classes started by user in C:\Users\user\Desktop\University\4 term\Java\Practices\Practice19)
-1544 [main] INFO  c.e.p.Practice19Application – No active profile set, falling back to default profiles: default
-2867 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-3006 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 117 ms. Found 2 JPA repository interfaces.
-4294 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
-4310 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
-4311 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
-4311 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.43]
-4500 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
-4500 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 2824 ms
-4746 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
-4920 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
-4986 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
-5064 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.4.28.Final
-5387 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-5637 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-6599 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-6614 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
-7052 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-7227 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor – Initializing ExecutorService 'applicationTaskExecutor'
-7538 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
-7565 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
-7579 [main] INFO  c.e.p.Practice19Application – Started Practice19Application in 7.009 seconds (JVM running for 9.511)
-1549 [main] INFO  c.e.p.Practice19Application – Starting Practice19Application using Java 1.8.0_251 on LAPTOP-FID3PILK with PID 23968 (C:\Users\user\Desktop\University\4 term\Java\Practices\Practice19\target\classes started by user in C:\Users\user\Desktop\University\4 term\Java\Practices\Practice19)
-1555 [main] INFO  c.e.p.Practice19Application – No active profile set, falling back to default profiles: default
-2780 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2896 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 98 ms. Found 2 JPA repository interfaces.
-4005 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
-4020 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
-4020 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
-4021 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.43]
-4196 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
-4197 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 2496 ms
-4433 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
-4594 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
-4656 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
-4735 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.4.28.Final
-5062 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-5363 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-6369 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-6385 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
-6818 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-6987 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor – Initializing ExecutorService 'applicationTaskExecutor'
-7278 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
-7306 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
-7321 [main] INFO  c.e.p.Practice19Application – Started Practice19Application in 6.726 seconds (JVM running for 8.979)
-27814 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
-27814 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
-27815 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
-27853 [http-nio-8080-exec-1] INFO  c.e.practice19.services.PostService – Get all posts
-63135 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver – Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-80456 [http-nio-8080-exec-4] ERROR c.e.practice19.services.PostService – Post is not found
-343  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper � Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.practice19.Practice19ApplicationTests], using SpringBootContextLoader
-354  [main] INFO  o.s.t.c.s.AbstractContextLoader � Could not detect default resource locations for test class [com.example.practice19.Practice19ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-356  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils � Could not detect default configuration classes for test class [com.example.practice19.Practice19ApplicationTests]: Practice19ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-625  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper � Found @SpringBootConfiguration com.example.practice19.Practice19Application for test class com.example.practice19.Practice19ApplicationTests
-831  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper � Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-872  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper � Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1ebea008, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@72d6b3ba, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1787f2a0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7de62196, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@163370c2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@51bf5add, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7905a0b8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@35a3d49f, org.springframework.test.context.event.EventPublishingTestExecutionListener@389b0789, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@13d9cbf5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@478db956, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6ca18a14, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@c667f46, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@51bd8b5c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7b50df34]
-1490 [main] INFO  c.e.p.Practice19ApplicationTests � Starting Practice19ApplicationTests using Java 1.8.0_251 on LAPTOP-FID3PILK with PID 25204 (started by user in C:\Users\user\Desktop\University\4 term\Java\Practices\Practice19)
-1495 [main] INFO  c.e.p.Practice19ApplicationTests � No active profile set, falling back to default profiles: default
-2822 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate � Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2958 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate � Finished Spring Data repository scanning in 116 ms. Found 2 JPA repository interfaces.
-4330 [main] INFO  com.zaxxer.hikari.HikariDataSource � HikariPool-1 - Starting...
-4612 [main] INFO  com.zaxxer.hikari.HikariDataSource � HikariPool-1 - Start completed.
-4743 [main] INFO  o.h.jpa.internal.util.LogHelper � HHH000204: Processing PersistenceUnitInfo [name: default]
-4853 [main] INFO  org.hibernate.Version � HHH000412: Hibernate ORM core version 5.4.28.Final
-5178 [main] INFO  o.h.annotations.common.Version � HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-5909 [main] INFO  org.hibernate.dialect.Dialect � HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-7197 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator � HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-7219 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean � Initialized JPA EntityManagerFactory for persistence unit 'default'
-8454 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration � spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-8995 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor � Initializing ExecutorService 'applicationTaskExecutor'
-9914 [main] INFO  c.e.p.Practice19ApplicationTests � Started Practice19ApplicationTests in 8.971 seconds (JVM running for 11.009)
-10219 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor � Shutting down ExecutorService 'applicationTaskExecutor'
-10221 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean � Closing JPA EntityManagerFactory for persistence unit 'default'
-10226 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource � HikariPool-1 - Shutdown initiated...
-10251 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource � HikariPool-1 - Shutdown completed.
+850  [main] INFO  c.e.p.Practice19Application – Starting Practice19Application using Java 1.8.0_251 on LAPTOP-FID3PILK with PID 24040 (C:\Users\user\Desktop\University\4 term\Java\Practices\Practice19\target\classes started by user in C:\Users\user\Desktop\University\4 term\Java\Practices\Practice19)
+870  [main] INFO  c.e.p.Practice19Application – No active profile set, falling back to default profiles: default
+1460 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1531 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
+2241 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+2251 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+2252 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+2252 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.43]
+2364 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+2364 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1440 ms
+2511 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+2621 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+2661 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+2710 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.4.28.Final
+2900 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3029 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3631 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3644 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+3950 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4071 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor – Initializing ExecutorService 'applicationTaskExecutor'
+4300 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+4320 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+4331 [main] INFO  c.e.p.Practice19Application – Started Practice19Application in 4.022 seconds (JVM running for 5.128)

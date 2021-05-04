@@ -82,5 +82,4 @@ public class PostService {
         Query<Post> query = session.createQuery(postCriteriaQuery);
         return query.getResultList();
     }
-
 }

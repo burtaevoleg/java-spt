@@ -1,7 +1,6 @@
 package Practice01;
 
 import java.util.Arrays;
-
 /**
  * Вариант 6
  * Имплементировать интерфейс Comparator, сравнивающий двух

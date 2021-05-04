@@ -20,7 +20,6 @@ import java.io.IOException;
 @ManagedResource(
         objectName = "Practice22MBeans:category=MBeans,name=DataScheduler"
 )
-// https://urvanov.ru/2018/05/05/%d0%b2%d0%b2%d0%b5%d0%b4%d0%b5%d0%bd%d0%b8%d0%b5-%d0%b2-jmx-%d0%b8-mbeans-%d0%b2-java/
 public class SchedulerService {
     @Autowired
     private PostService postService;

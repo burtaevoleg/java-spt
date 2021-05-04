@@ -3,7 +3,6 @@ package com.example.practice21.services;
 import com.example.practice21.repositories.UserRepository;
 import com.example.practice21.tables.User;
 import lombok.RequiredArgsConstructor;
-import org.aspectj.lang.annotation.SuppressAjWarnings;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;

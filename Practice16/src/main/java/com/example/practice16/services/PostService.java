@@ -7,7 +7,6 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.springframework.stereotype.Component;
-
 import javax.annotation.PostConstruct;
 import java.util.List;
 
@@ -45,5 +44,4 @@ public class PostService {
         return session.createQuery("FROM Post where id = :id", Post.class)
                 .setParameter("id", postId).getSingleResult().getUser();
     }
-
 }

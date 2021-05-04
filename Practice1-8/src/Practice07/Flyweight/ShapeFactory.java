@@ -4,7 +4,6 @@ import Practice07.Flyweight.Shapes.Circle;
 import Practice07.Flyweight.Shapes.Point;
 import Practice07.Flyweight.Shapes.Shape;
 import Practice07.Flyweight.Shapes.Square;
-
 import java.util.HashMap;
 import java.util.Map;
 

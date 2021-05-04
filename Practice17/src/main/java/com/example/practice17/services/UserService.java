@@ -1,6 +1,5 @@
 package com.example.practice17.services;
 
-import com.example.practice17.tables.Post;
 import com.example.practice17.tables.User;
 import lombok.RequiredArgsConstructor;
 import org.hibernate.Session;
@@ -88,5 +87,4 @@ public class UserService {
         Query<User> query = session.createQuery(userCriteriaQuery);
         return query.getResultList();
     }
-
 }

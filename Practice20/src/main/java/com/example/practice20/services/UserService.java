@@ -3,7 +3,6 @@ package com.example.practice20.services;
 import com.example.practice20.repositories.UserRepository;
 import com.example.practice20.tables.User;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 

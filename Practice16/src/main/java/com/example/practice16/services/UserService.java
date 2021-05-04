@@ -6,7 +6,6 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.springframework.stereotype.Component;
-
 import javax.annotation.PostConstruct;
 import java.util.List;
 
@@ -39,5 +38,4 @@ public class UserService {
         transaction.commit();
         return "User deleted";
     }
-
 }
